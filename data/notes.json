@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "Sprint Planning",
+    "content": "The team discussed and prioritized user stories for the upcoming sprint.Estimated story points and defined acceptance criteria.",
+    "actionItems": [
+      "Break down complex tasks",
+      "Clarify acceptance criteria"
+    ],
+    "creationDate": "02-01-2024 22:34:05"
+  },
+  {
+    "id": "2",
+    "title": "Backlog Grooming",
+    "content": "Refined the product backlog, adding new user stories and updating priorities. Discussed dependencies and potential risks.",
+    "actionItems": [
+      "Create tasks for new user stories",
+      "Mitigate identified risks"
+    ],
+    "creationDate": "02-02-2024 23:33:04"
+  },
+  {
+    "id": "3",
+    "title": "Impediment Resolution",
+    "content": "Team members reported impediments and discussed strategies for resolution. Identified ways to improve collaboration and communication.",
+    "actionItems": [
+      "Assign ownership for impediments",
+      "Schedule regular communication check-ins"
+    ],
+    "creationDate": "02-03-2024 1:33:04"
+  },
+  {
+    "id": "4",
+    "title": "Release Planning",
+    "content": "The team discussed the overall project timeline, milestones, and release goals. Aligned on the scope for the upcoming release.",
+    "actionItems": [
+      "Define release milestones",
+      "Coordinate with QA for testing plan"
+    ],
+    "creationDate": "02-04-2024 2:33:04"
+  },
+  {
+    "id": "5",
+    "title": "Product Demo",
+    "content": "Demonstrated the latest product features to stakeholders, showcasing completed user stories. Gathered feedback for further refinement.",
+    "actionItems": [
+      "Incorporate stakeholder feedback",
+      "Prepare documentation for new features"
+    ],
+    "creationDate": "02-05-2024 3:33:04"
+  }
+]

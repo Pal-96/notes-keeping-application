@@ -1,0 +1,145 @@
+  /* To style the note buttons */
+  .collapsible {
+    background-color: #a58d8d;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    outline: auto;
+    font-size: 15px;
+  }
+
+  /* To style the note button while hover */
+  .active,
+  .collapsible:hover {
+    background-color: #796666;
+  }
+
+  /*To style the note content*/
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  h1 {
+    font-family: $titlefont;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-right: 6in;
+    width: 15cm;
+  }
+
+  h4,
+  h5 {
+    font-family: $titlefont;
+    font-weight: bolder;
+  }
+
+  p,
+  label {
+    font-family: $titlefont;
+  }
+
+  /* To display 'notes app' title and 'create note' button in flexbox*/
+  .menu {
+    display: flex;
+  }
+
+  /* To style the create note button */
+  .createnote {
+    height: 10mm;
+    width: 4cm;
+    border-radius: 2cm;
+    margin-top: 0.8cm;
+    background-color: #9f8c8c;
+    color: white;
+    outline: black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  /* To style the popup feature, when create note button is clicked */
+  .card {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(201, 186, 186, 0.5);
+  }
+
+  .popup-content {
+    background: #f0d1d1;
+    padding: 10px;
+    width: 300px;
+    height: 280px;
+    margin: 100px auto;
+    border-radius: 0.5cm;
+  }
+
+  /* To style the submit button while creating new note*/
+  #submit {
+    height: 10mm;
+    width: 4cm;
+    border-radius: 2cm;
+    margin-top: 0.8cm;
+    background-color: #9f8c8c;
+    color: white;
+    outline: black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  /*To style the close button to close the create new note pop up.*/
+  #closeButton {
+    height: 10mm;
+    width: 2cm;
+    border-radius: 2cm;
+    margin-top: 0.8cm;
+    margin-left: 1.5cm;
+    background-color: #9f8c8c;
+    color: white;
+    outline: black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  /*To style the content in popup*/
+  #actionitem {
+    width: 7.5cm;
+    height: 1cm;
+  }
+
+  #title,
+  #content {
+    width: 5.5cm;
+  }
+
+  label {
+    font-size: small;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .display-block {
+    display: block;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  /* To display ellipsis after the trucated content*/
+  .short-para::after {
+    content: '...';
+  }

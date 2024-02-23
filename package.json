@@ -1,0 +1,14 @@
+{
+  "name": "assignment-6-palsayan01",
+  "version": "1.0.0",
+  "description": "Assignment 6 scss",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/main.scss dist/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.0"
+  }
+}
